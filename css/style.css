@@ -92,7 +92,6 @@ main > section:nth-of-type(1) {
     align-items: center;
     flex-direction: column;
     height: 80vh;
-    background-color: bisque;
 }
 
 main > section:nth-of-type(1) > p {
@@ -101,6 +100,7 @@ main > section:nth-of-type(1) > p {
     text-align: center;
     margin: 0;
     padding: 70px;
+    color: #1F2937;
 }
 
 main > section:nth-of-type(1) > section {
@@ -123,3 +123,33 @@ figure {
 main > section:nth-of-type(1) > section p {
     margin: 0;
 }
+
+/* MAIN SECTION 2 */
+
+main > section:nth-of-type(2) {
+background-color: #e5e7eb;
+
+}
+
+main > section:nth-of-type(2) > section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 44vh;
+}
+
+main > section:nth-of-type(2) p:nth-of-type(1) {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    margin-top: 100px;
+}
+
+main > section:nth-of-type(2) p:nth-of-type(2) {
+    align-self: flex-end;
+    margin-bottom: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
