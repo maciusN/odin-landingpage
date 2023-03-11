@@ -128,7 +128,6 @@ main > section:nth-of-type(1) > section p {
 
 main > section:nth-of-type(2) {
 background-color: #e5e7eb;
-
 }
 
 main > section:nth-of-type(2) > section {
@@ -153,3 +152,42 @@ main > section:nth-of-type(2) p:nth-of-type(2) {
     font-weight: bold;
 }
 
+/* MAIN SECTION 3 */
+
+main > section:nth-of-type(3) {
+    padding: 100px 30vh;
+}
+
+main > section:nth-of-type(3) > section {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    padding: 30px 100px;
+}
+
+main > section:nth-of-type(3) p:nth-of-type(1) {
+    font-size: 25px;
+}
+
+main > section:nth-of-type(3) button {
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+main > section:nth-of-type(3) section p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 20px 0;
+}
