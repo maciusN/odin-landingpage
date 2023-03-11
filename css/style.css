@@ -81,3 +81,45 @@ header button {
     padding: 10px 20px;
     border: 0;
 }
+
+/* MAIN */
+
+/* MAIN SECTION 1 */
+
+main > section:nth-of-type(1) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: bisque;
+}
+
+main > section:nth-of-type(1) > p {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+    padding: 70px;
+}
+
+main > section:nth-of-type(1) > section {
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+figure {
+    flex: 0;
+    text-align: center;
+    margin: 0 40px;
+}
+
+main > section:nth-of-type(1) > section p {
+    margin: 0;
+}
